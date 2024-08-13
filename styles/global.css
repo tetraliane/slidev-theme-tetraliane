@@ -1,0 +1,16 @@
+:root {
+  --slidev-theme-surface-light: rgb(245 251 247);
+  --slidev-theme-surface-dark: rgb(14 21 19);
+}
+
+body {
+  --slidev-theme-surface: light-dark(
+    var(--slidev-theme-surface-light),
+    var(--slidev-theme-surface-dark)
+  );
+}
+
+.tetraliane-layout {
+  @apply px-24 py-20 text-[1.1rem] h-full;
+  background-color: var(--slidev-theme-surface);
+}
