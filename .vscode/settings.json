@@ -1,9 +1,6 @@
 {
-    "slidev.force-enabled": true,
-    "slidev.port": 3030,
-    "slidev.include": [
-        "**/slides.md",
-        "example.md"
-    ],
-    "slidev.preview-sync": false
+  "slidev.force-enabled": true,
+  "slidev.port": 3030,
+  "slidev.include": ["**/slides.md", "example.md"],
+  "slidev.preview-sync": false
 }

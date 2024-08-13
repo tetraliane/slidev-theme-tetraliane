@@ -1,4 +1,4 @@
-@import 'prism-theme-vars/base.css';
+@import "prism-theme-vars/base.css";
 
 :root {
   --prism-font-family: var(--slidev-code-font-family);
