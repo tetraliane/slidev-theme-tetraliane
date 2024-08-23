@@ -3,6 +3,7 @@
   --slidev-theme-surface-dark: rgb(14 21 19);
   --slidev-theme-primary-light: rgb(197 18 54);
   --slidev-theme-primary-dark: rgb(241 101 129);
+  --slidev-theme-outline: gray;
 }
 
 body {
@@ -36,4 +37,9 @@ body {
 
 .tetraliane-layout strong {
   color: var(--slidev-theme-primary);
+}
+
+.tetraliane-layout code {
+  @apply px-1 py-0.5 rounded;
+  background-color: rgb(255 255 255 / 12%);
 }

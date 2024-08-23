@@ -24,3 +24,13 @@ This theme includes the following layouts:
 
 - **default** -- The most basic layout
 - **intro** -- To introduce the presentation, usually contains the presentation title
+
+---
+layout: section
+---
+
+# Features
+
+::info::
+
+`slidev-theme-tetraliane` has many features.
