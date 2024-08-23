@@ -24,6 +24,6 @@
 }
 
 .info :deep(p) {
-  @apply opacity-50;
+  @apply opacity-50 m-0;
 }
 </style>

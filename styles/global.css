@@ -1,6 +1,8 @@
 :root {
   --slidev-theme-surface-light: rgb(245 251 247);
   --slidev-theme-surface-dark: rgb(14 21 19);
+  --slidev-theme-primary-light: rgb(197 18 54);
+  --slidev-theme-primary-dark: rgb(241 101 129);
 }
 
 body {
@@ -8,9 +10,30 @@ body {
     var(--slidev-theme-surface-light),
     var(--slidev-theme-surface-dark)
   );
+  --slidev-theme-primary: light-dark(
+    var(--slidev-theme-primary-light),
+    var(--slidev-theme-primary-dark)
+  );
 }
 
 .tetraliane-layout {
   @apply px-24 py-20 text-[1.1rem] h-full;
   background-color: var(--slidev-theme-surface);
+}
+
+.tetraliane-layout h1 {
+  @apply text-5xl mb-6;
+}
+
+.tetraliane-layout p,
+.tetraliane-layout ul {
+  @apply my-2;
+}
+
+.tetraliane-layout ul {
+  @apply list-disc pl-8;
+}
+
+.tetraliane-layout strong {
+  color: var(--slidev-theme-primary);
 }

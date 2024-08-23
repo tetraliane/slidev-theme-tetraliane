@@ -15,3 +15,12 @@ By @tetraliane
     Press Space for next page <carbon:arrow-right class="inline"/>
   </span>
 </div>
+
+---
+
+# Layouts
+
+This theme includes the following layouts:
+
+- **default** -- The most basic layout
+- **intro** -- To introduce the presentation, usually contains the presentation title
