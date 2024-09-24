@@ -15,6 +15,7 @@ body {
     var(--slidev-theme-primary-light),
     var(--slidev-theme-primary-dark)
   );
+  --slidev-theme-code-bg: light-dark(rgb(255 255 255), rgb(18 18 18));
 }
 
 .tetraliane-layout {
@@ -39,7 +40,17 @@ body {
   color: var(--slidev-theme-primary);
 }
 
+.tetraliane-layout pre {
+  border: solid 1px var(--slidev-theme-outline);
+}
 .tetraliane-layout code {
   @apply px-1 py-0.5 rounded;
-  background-color: rgb(255 255 255 / 12%);
+  /* inline code style */
+  border: solid 1px var(--slidev-theme-outline);
+  background-color: var(--slidev-theme-code-bg);
+}
+.tetraliane-layout pre > code {
+  /* code block style */
+  border: none;
+  background: none;
 }
