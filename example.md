@@ -34,3 +34,27 @@ layout: section
 ::info::
 
 `slidev-theme-tetraliane` has many features.
+
+---
+layout: two-cols
+---
+
+# Two-column layout
+
+This is the left pane.
+
+::right::
+
+```md
+---
+layout: two-cols
+---
+
+# Two-column layout
+
+This is the left pane.
+
+::right::
+
+This paragraph is shown in the right side.
+```
