@@ -24,6 +24,8 @@ This theme includes the following layouts:
 
 - **default** -- The most basic layout
 - **intro** -- To introduce the presentation, usually contains the presentation title
+- **section** -- Used to mark the beginning of a new presentation section
+- **two-cols** -- Separates the page in two columns.
 
 ---
 layout: section
