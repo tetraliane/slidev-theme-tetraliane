@@ -67,3 +67,8 @@ body {
 .tetraliane-layout td {
   @apply py-1;
 }
+
+.tetraliane-layout blockquote {
+  @apply opacity-50 pl-4;
+  border-left: solid 3px var(--slidev-theme-outline);
+}
