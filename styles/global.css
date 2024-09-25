@@ -54,3 +54,16 @@ body {
   border: none;
   background: none;
 }
+
+.tetraliane-layout table {
+  @apply w-full;
+  border-top: solid 1.5px var(--slidev-theme-outline);
+  border-bottom: solid 1.5px var(--slidev-theme-outline);
+}
+.tetraliane-layout thead {
+  border-bottom: solid 1px var(--slidev-theme-outline);
+}
+.tetraliane-layout th,
+.tetraliane-layout td {
+  @apply py-1;
+}

@@ -26,6 +26,7 @@ This theme includes the following layouts:
 - **intro** -- To introduce the presentation, usually contains the presentation title
 - **section** -- Used to mark the beginning of a new presentation section
 - **two-cols** -- Separates the page in two columns.
+- **fact** -- To show some fact or data
 
 ---
 layout: section
@@ -60,3 +61,16 @@ This is the left pane.
 
 This paragraph is shown in the right side.
 ```
+
+---
+layout: fact
+---
+
+Table 1: Keyboard shortcuts
+
+| Key                                                | Role                        |
+| :------------------------------------------------- | :-------------------------- |
+| <kbd>space</kbd> / <kbd>right</kbd>                | next animation or slide     |
+| <kbd>left</kbd> / <kbd>shift</kbd>+<kbd>space</kbd> | previous animation or slide |
+| <kbd>up</kbd>                                      | previous slide              |
+| <kbd>down</kbd>                                    | next slide                  |
