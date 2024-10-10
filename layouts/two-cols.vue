@@ -11,9 +11,7 @@
 
 <style scoped>
 .two-cols {
-  display: flex;
-}
-.two-cols > div {
-  flex: 0 0 50%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 </style>
