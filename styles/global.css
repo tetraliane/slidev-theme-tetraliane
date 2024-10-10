@@ -74,3 +74,7 @@ body {
   @apply opacity-50 pl-4;
   border-left: solid 3px var(--slidev-theme-outline);
 }
+
+.tetraliane-layout a {
+  text-decoration: underline;
+}
