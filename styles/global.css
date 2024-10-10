@@ -51,8 +51,10 @@ body {
 }
 .tetraliane-layout pre > code {
   /* code block style */
+  @apply px-0;
   border: none;
   background: none;
+  scale: 0.95;
 }
 
 .tetraliane-layout table {
